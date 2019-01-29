@@ -70,7 +70,7 @@ $(function(){
 var element = $(".element");
 $(function() {
   element.typed({
-    strings: ["Full Stack Web Developer.", "Human Resources Professional.", "Ultra-Marathon Runner.", "Life-Long Learner." ],
+    strings: ["Full Stack Web Developer.", "Human Resources Professional.", "Life-Long Learner." ],
     typeSpeed: 100,
     loop: true,
   });

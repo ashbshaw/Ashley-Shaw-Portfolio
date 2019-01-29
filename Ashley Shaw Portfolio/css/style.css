@@ -196,7 +196,7 @@ p{
 /*-------------------------------------------------------*/
 #home {
   position: relative;
-  background: url(../images/home.jpg) no-repeat center center;
+  background: url(../images/background-1.jpg) no-repeat center center;
   height: 100%;
   background-size: cover;
   z-index: 1;
@@ -340,6 +340,7 @@ p{
   -moz-box-shadow: 0 0 20px #ddd;
 }
 .skill-bar {
+  margin-bottom: 20px;
   width: 100%;
   height: 8px;
   background-color: #111;
@@ -352,7 +353,7 @@ p{
 }
 .single-skill {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .single-skill p {
   font-size: 16px;

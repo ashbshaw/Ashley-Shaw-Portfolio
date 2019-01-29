@@ -72,11 +72,11 @@
   $entered_email = $_POST["email"];
   $entered_subject = $_POST["subject"];
   $entered_message = $_POST["message"];
-$sendTo = '<personal@website.com>';  //put your email address here
+$sendTo = '<ashley.brooke.shaw@gmail.com>';  //put your email address here
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message');
-$okMessage = 'I got your message, thanks for contacting. Will get back soon.';
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$okMessage = 'I got your message - thanks for contacting! I will get back with you soon.';
+$errorMessage = 'There was an error while submitting the form. Please try again later or email me directly at ashley.brooke.shaw@gmail.com';
 
 // let's do the sending
 try
