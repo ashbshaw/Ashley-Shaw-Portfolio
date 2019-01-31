@@ -1,5 +1,5 @@
 # Ashley-Shaw-Portfolio
 
-UNDER CONSTRUCTION (JANUARY 2019)
+Professional Portfolio
 
 https://ashbshaw.github.io/Ashley-Shaw-Portfolio/
