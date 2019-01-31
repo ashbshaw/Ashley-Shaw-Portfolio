@@ -1,42 +1,3 @@
-/*
-===========================================================================
- EXCLUSIVE ON themeforest.net
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- Template Name   : Velocity - Personal Portfolio Template
- Version         : 2.0 
- Author          : bootWeb
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- Copyright (c) 2017 - bootWeb - https://themeforest.net/user/bootweb
-===========================================================================
-*/
-
-/*================================================
-            Table of contents  
-==================================================
- 
-1. Preloader
-2. Background-image flickering solution for mobile
-3. Parallax
-4. Type js
-5. Wow js
-6. Active Scroll
-7. Smooth scroll
-8. Progress Bar
-9. Magnific Popup
-10. Mixitup
-11. Hoverdir
-12. Counter
-13. Testimonial
-14. Clients
-15. Contact form
-16. Google Map
-17. Scroll to top
-18. Scroll Navbar
-
-====================================================
-            End table content 
-===================================================*/
-
 $(function () {
   "use strict";
 
@@ -151,57 +112,6 @@ $('.counter').counterUp({
   time: 400
 });
 
-//Testimonial
-$("#owl-testimonial").owlCarousel({
-  navigation: false,
-  pagination: true,
-  slideSpeed: 800,
-  paginationSpeed: 800,
-  smartSpeed: 500,
-  autoplay: false,
-  singleItem: true,
-  loop: false,
-  responsive:{
-    0:{
-      items:1
-    },
-    680:{
-      items:2
-    },
-    1000:{
-      items:3
-    }
-  }
-});
-
-//Clients
-$("#partners").owlCarousel({
-  loop: true,
-  nav: false,
-  dots: false,
-  margin: 30,
-  autoplay: true,
-  autoplayTimeout: 1300,
-  smartSpeed: 500,
-  responsive: {
-    0:{
-      items:1
-    },
-    320:{
-      items:2
-    },
-    520:{
-      items:3
-    },
-    860:{
-      items:5
-    },
-    1000:{
-      items:6
-    }
-  }
-});
-
 //Contact form
 var validator=$("#form").validate({
   rules: {
@@ -226,7 +136,7 @@ $(".send-btn").on("click touchstart", function () {
 });
 
 //Google Map
-var myCenter = new google.maps.LatLng(19.074,72.884);
+var myCenter = new google.maps.LatLng(38.967524,-95.235927);
 function initialize() {
   var mapProp = {
     center:myCenter,
@@ -238,7 +148,7 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById("map"),mapProp);
   var marker = new google.maps.Marker({
     position:myCenter,
-    icon: 'images/map.png',
+    icon: 'images/star-icon.png',
   });
   marker.setMap(map);
   marker.setAnimation(google.maps.Animation.BOUNCE);
@@ -270,3 +180,15 @@ $('#scroll-up').on("click", function () {
 
 }(jQuery));
 });
+
+/*
+===========================================================================
+ EXCLUSIVE ON themeforest.net
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Template Name   : Velocity - Personal Portfolio Template
+ Version         : 2.0 
+ Author          : bootWeb
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Copyright (c) 2017 - bootWeb - https://themeforest.net/user/bootweb
+===========================================================================
+*/

@@ -5,23 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Velocity - Personal Portfolio Template">
-  <meta name="keywords" content="velocity, portfolio, website, template, resume, bootWeb, cv, personal, developer, designer, onepage, clean, modern, graphic, web">
   <meta name="author" content="Mehul Prajapati">
   <meta name="apple-mobile-web-app-capable" content="yes">
-    <!--
-    ========================================================================
-     EXCLUSIVE ON themeforest.net
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     Template Name   : Velocity - Personal Portfolio Template
-     Version         : 2.0
-     Author          : bootWeb
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     Copyright (c) 2017 - bootWeb - https://themeforest.net/user/bootweb
-
-    ========================================================================
-    -->
-    <title>Velocity - Personal Portfolio Template</title>
+   
+    <title>Ashley Shaw | Portfolio</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
     <link rel="apple-touch-icon-precomposed" href="../images/favicon.png">
@@ -46,17 +33,14 @@
        <span class="icon icon-bar"></span>
        <span class="icon icon-bar"></span>
      </button>
-     <!-- lOGO TEXT HERE -->
-     <a href="../index.html" class="navbar-brand">Velo<span class="contrast">city</span></a>
    </div>
    <!-- NAVIGATION LINKS -->
    <div class="collapse navbar-collapse">
     <ul class="nav navbar-nav navbar-right">
      <li><a href="../index.html#home">Home</a></li>
      <li><a href="../index.html#about">About</a></li>
-     <li><a href="../index.html#service">Service</a></li>
+     <li><a href="../index.html#skill">Skills/a></li>
      <li><a href="../index.html#portfolio">Portfolio</a></li>
-     <li><a href="../index.html#blog">Blog</a></li>
      <li><a href="../index.html#contact" class="active">Contact</a></li>
    </ul>
  </div>
@@ -72,7 +56,7 @@
   $entered_email = $_POST["email"];
   $entered_subject = $_POST["subject"];
   $entered_message = $_POST["message"];
-$sendTo = '<ashley.brooke.shaw@gmail.com>';  //put your email address here
+$sendTo = '<ashley.brooke.shaw@gmail.com>';  
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message');
 $okMessage = 'I got your message - thanks for contacting! I will get back with you soon.';
@@ -114,3 +98,16 @@ catch (\Exception $e)
 <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+ <!--
+    ========================================================================
+     EXCLUSIVE ON themeforest.net
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Template Name   : Velocity - Personal Portfolio Template
+     Version         : 2.0
+     Author          : bootWeb
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Copyright (c) 2017 - bootWeb - https://themeforest.net/user/bootweb
+
+    ========================================================================
+    -->
